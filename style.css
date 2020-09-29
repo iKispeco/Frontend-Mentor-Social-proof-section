@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  font-family: "Muli", sans-serif;
+  font-weight: bolder;
+  color: rgba(54, 21, 54, 0.911);
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: justify;
+  font-size: 50px;
+}
+
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 45% 55%;
+}
+
+.topHalf {
+  background-image: url("images/bg-pattern-top-desktop.svg");
+  background-repeat: no-repeat;
+
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 50% 50%;
+}
+
+.topLeft {
+  margin-left: 120px;
+  justify-self: center;
+  align-self: center;
+}
+
+#info {
+  margin-top: auto;
+  font-family: "Muli", sans-serif;
+  font-weight: 550;
+  color: hsla(304, 6%, 51%, 0.712);
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.topRight {
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 15px;
+  justify-self: center;
+  align-self: center;
+}
+
+.ratings {
+  font-family: "Muli", sans-serif;
+  font-weight: bolder;
+  background-color: hsl(300, 24%, 96%);
+  color: hsla(300, 42%, 24%, 0.836);
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 50px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.second {
+  margin-left: 100px;
+}
+
+.third {
+  margin-left: 150px;
+}
+
+.ratingImg {
+  height: 13px;
+  width: 13px;
+  margin: 3px;
+  padding-top: 15px;
+}
+
+.ratingText {
+  padding-left: 20px;
+}
+
+.bottomHalf {
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 410px 410px 410px;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 40px;
+  align-content: center;
+  justify-content: center;
+}
+
+.bottomItem {
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.userHeader {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.userImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.userID {
+  margin-top: 30px;
+  margin-left: 30px;
+  line-height: 1.5;
+}
+
+.colorChange {
+  color: hsla(333, 80%, 67%, 0.459);
+}
+
+.userInfo {
+  font-family: "Muli", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: hsla(0, 0%, 99% 0.5);
+  font-weight: 400;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.itemLeft {
+  height: 250px;
+}
+
+.itemMid {
+  height: 250px;
+  margin-top: 30px;
+}
+
+.itemRight {
+  height: 250px;
+  margin-top: 60px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
